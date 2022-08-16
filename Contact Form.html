@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    
+  </head>
+  <body> 
+    <h1>Contact Form</h1>
+    <h4>
+      Please fill in your information and we'll be sending your order in no
+      time.
+      <hr>
+    </h4>
+    <form action="#" method="POST">
+    <table>
+      <tr>
+        <td>Your Name:</td>
+        <td><input type="text" name="fName" placeholder="First Name" /></td>
+        <td><input type="text" name="lName" placeholder="Last Name" /></td>
+      </tr>
+     <td>Your Email:</td>
+        <td>
+          <input
+            type="email"
+            name="email"
+            placeholder="e.g. hello@contact.net"
+            colspan="2"
+          />
+        </td>
+        </tr>
+      <tr>
+        <td>Phone:</td>
+        <td>
+          <input
+            type="tel"
+            name="Phone"
+            pattern="[0-9] {3}"
+            placeholder="###"
+          />
+        </td>
+        <td>
+          <input
+            type="tel"
+            name="Phone"
+            pattern="[0-9] {3}"
+            placeholder="###"
+          />
+        </td>
+        <td>
+          <input
+            type="tel"
+            name="Phone"
+            pattern="[0-9] {4}"
+            placeholder="####"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>Message Subject:</td>
+                <td>
+                     <select name="other" size="1">
+                        <option value="other">other</option>
+                     </select>
+                </td>    
+      </tr>
+      <tr>
+        <td>Message:</td>
+        <td>
+     <textarea name="" id="" cols="20" rows="5" placeholder="enter your address"></textarea></td>
+     </tr>
+     <tr>
+        <td>Verification:</td>
+        <td>
+            <input type="checkbox" name="I'm not a robot">I'm not a robot
+        </td>
+     </tr>
+    </table>
+    <hr>
+    <button>SUBMIT FORM</button>
+    </form>
+  </body>
+</html>
